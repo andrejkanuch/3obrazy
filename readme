@@ -1,0 +1,11 @@
+Token
+CFPAT-JSv8wNKKcgmkSshokrjFjCDH_Q7NdnZrX6F4gLr4dJc
+
+Instalacia:
+    1.Stiahnut projekt z githubu
+    2. Nainstalovat gatsby ->  npm install -g gatsby-cli 
+    3. npm install , v pripade chyb s node/sass atd spustit commmand -> npm rebuild node-sass 
+    4.spustenie -> gatsby develop
+
+Struktura projektu je rozdelena medzi public a src,pracuje sa iba na src,stranky su ulozene v src/pages , jedina dynamicka stranka v src/pages je search.jsx.
+Styly pre stranku sa pisu do styles a do prislusneho filu stranky ktora sa styluje.Styly pre komponenty sa zatial pisu do filov s priponou *.module.scss ,SCSS subor pre komponent sa nachadza v tom istom subore ako javascript

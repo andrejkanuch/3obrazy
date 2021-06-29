@@ -1,0 +1,45 @@
+.icon-facebook {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/Facebook.png");
+}
+
+.icon-instagram {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/Instagram.png");
+}
+
+.icon-tweeter {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/tweeter.png");
+}
+
+.icon-pinterest {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/pinterest.png");
+}
+
+.icon-cart {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/cart.png");
+  height: 22px;
+  width: 22px;
+}
+
+.icon-remove {
+  height: 33px;
+  width: 33px;
+  display: block;
+  background: url("../img/icons/remove.png");
+  height: 12px;
+  width: 12px;
+}

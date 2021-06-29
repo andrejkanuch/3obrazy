@@ -1,0 +1,12 @@
+{  
+    "development":{  
+       "host":"preview.contentful.com",
+       "spaceId":"2wacyqz6lvrv",
+       "accessToken":"YsDo3liiROb5zHxpQRnOR_L91ilUnS_Uv6fiyidFyRc"
+    
+    },
+    "production":{  
+       "spaceId":"2wacyqz6lvrv",
+       "accessToken":"YsDo3liiROb5zHxpQRnOR_L91ilUnS_Uv6fiyidFyRc"
+    }
+ }

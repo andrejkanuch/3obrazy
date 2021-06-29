@@ -1,0 +1,33 @@
+@mixin iconProps($iconName){
+    height: 33px;
+    width: 33px;
+    display: block;
+    background:$iconName;
+}
+
+.icon-facebook{
+    @include iconProps(url("../img/icons/Facebook.png"));
+}
+
+.icon-instagram{
+    @include iconProps(url("../img/icons/Instagram.png"));
+}
+
+.icon-tweeter{
+    @include iconProps(url("../img/icons/tweeter.png"));
+}
+
+.icon-pinterest{
+    @include iconProps(url("../img/icons/pinterest.png"));
+}
+
+.icon-cart{
+    @include  iconProps(url("../img/icons/cart.png"));
+    height: 22px;
+    width: 22px;
+}
+.icon-remove{
+    @include  iconProps(url("../img/icons/remove.png"));
+    height: 12px;
+    width: 12px;
+}

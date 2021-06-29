@@ -1,0 +1,61 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding:1em 0;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+
+    p {
+      background-image: url("../../img/backgroundHeader.png");
+      background-repeat: no-repeat;
+      color: black;
+      width: 300px;
+      padding: 1em 0;
+      margin: 0;
+      background-position: center;
+      text-align: center;
+    }
+  }
+
+  &container {
+    display: grid;
+    padding: 0 80px;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    gap: 12px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .element {
+    height: 400px;
+    position: relative;
+
+    img{
+      object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+  }
+
+  .text{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:40%;
+    padding: 1em;
+
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
